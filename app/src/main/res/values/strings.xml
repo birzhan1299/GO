@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GO</string>
+    <string name="driverbuttton">Я водитель</string>
+    <string name="CustomerBtn">Я клиент</string>
+    <string name="password">Пароль</string>
+    <string name="signIn">Войти</string>
+    <string name="regRes">Регистрация</string>
+    <string name="nameDriverReg">Имя</string>
+    <string name="title_activity_driver_maps">DriverMapsActivity</string>
+    <string name="title_activity_driver_map">DriverMapActivity</string>
+    <string name="title_activity_drivers_map">DriversMapActivity</string>
+    <string name="title_activity_customers_map">CustomersMapActivity</string>
+</resources>

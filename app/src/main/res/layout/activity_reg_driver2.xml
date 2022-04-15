@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegDriverActivity2"
+    android:background="@drawable/gowelcom">
+
+
+    <TextView
+        android:id="@+id/textRegDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация для водителей"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/RegEmailDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:layout_below="@+id/ETNameDriver"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/PasswordDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:layout_below="@+id/RegEmailDriver"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Password2Driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/PasswordDriver"
+        android:hint="Повтарите пароль"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ETNameDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textRegDriver"
+        android:inputType="textPersonName"
+        android:hint="@string/nameDriverReg" />
+    <Button
+        android:id="@+id/signInDriver"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password2Driver"
+        android:text="@string/regRes"/>
+
+</RelativeLayout>

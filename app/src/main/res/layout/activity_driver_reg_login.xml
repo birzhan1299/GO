@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverRegLoginActivity"
+    android:background="@drawable/gowelcom">
+
+    <EditText
+        android:id="@+id/driverEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusDriver"
+        android:ems="10"
+        android:hint="Email"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/driverPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_below="@+id/driverEmail"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signInDriver"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driverPassword"
+        android:text="@string/signIn" />
+
+    <Button
+        android:id="@+id/accCreate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInDriver"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/regRes" />
+
+    <TextView
+        android:id="@+id/statusDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:text="Вход для водителей" />
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gowelcom"
+    tools:context=".RegCustomerActivity">
+
+    <TextView
+        android:id="@+id/textRegCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Регистрация для клиентов"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/RegEmailCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ETNameCustomer"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/PasswordCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:layout_below="@+id/RegEmailCustomer"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Password2Customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/PasswordCustomer"
+        android:hint="Повтарите пароль"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ETNameCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRegCustomer"
+        android:ems="10"
+        android:hint="@string/nameDriverReg"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/signInCustomer"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password2Customer"
+        android:text="@string/regRes"/>
+</RelativeLayout>

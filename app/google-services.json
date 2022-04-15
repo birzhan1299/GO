@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569219594926",
+    "project_id": "go-taxi-ec66d",
+    "storage_bucket": "go-taxi-ec66d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569219594926:android:9fa1935c58409458818b3f",
+        "android_client_info": {
+          "package_name": "com.example.go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569219594926-7vivrudjlv9tc5fd6miasbv9pr8dqs6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHOgNWSFUeQfi9e9mBxLFN9sS0Mgb-uvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569219594926-7vivrudjlv9tc5fd6miasbv9pr8dqs6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
